@@ -203,13 +203,13 @@ weighted avg      0.89      0.89      0.89     10000
 - **Curso**: Machine Learning (TIEL26)
 - **Sección**: TIEL26-101-8V-A
 - **Instructor**: Felipe Oyarzún
-- **Institución**: INACAP Puente Alto
+- **Institución**: INACAP
 - **Evaluación**: 15% de la nota final
 - **Fecha de entrega**: 04 de Octubre, 2025
 
 ##  Información del Estudiante
 
-**Estudiante**: Christian Santibáñez Martínez  
+**Estudiante**: Christian Santibáñez
 **Institución**: INACAP
 
 ---
