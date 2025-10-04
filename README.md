@@ -80,7 +80,6 @@ Evaluación I Machine Learning TIEL26-101-8V-A/
  fashion_mnist_classifier.py    # Implementación principal
  requirements.txt               # Dependencias
  informe_tecnico.md            # Reporte técnico detallado
- informe_breve_final_word.md   # Informe breve para Word
  README.md                     # Documentación del proyecto
  .gitignore                    # Configuración de Git
  training_history.png          # Curvas de entrenamiento [GENERADO]
@@ -206,12 +205,12 @@ weighted avg      0.89      0.89      0.89     10000
 - **Instructor**: Felipe Oyarzún
 - **Institución**: INACAP Puente Alto
 - **Evaluación**: 15% de la nota final
-- **Fecha de entrega**: 29 de Septiembre, 2025
+- **Fecha de entrega**: 04 de Octubre, 2025
 
 ##  Información del Estudiante
 
 **Estudiante**: Christian Santibáñez Martínez  
-**Institución**: INACAP Puente Alto
+**Institución**: INACAP
 
 ---
 
