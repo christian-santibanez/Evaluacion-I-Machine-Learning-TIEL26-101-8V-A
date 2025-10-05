@@ -73,23 +73,23 @@ Entrada (784)  Dense(128, ReLU)  Dropout(0.2)  Dense(64, ReLU)  Dropout(0.2)  De
 
 **Estado del Proyecto:**  **COMPLETADO Y EJECUTADO**
 
-##  Estructura del Proyecto
-
-`
+📂 Estructura del Proyecto
 Evaluación I Machine Learning TIEL26-101-8V-A/
- fashion_mnist_classifier.py    # Implementación principal
- requirements.txt               # Dependencias
- informe_tecnico.md            # Reporte técnico detallado
- README.md                     # Documentación del proyecto
- .gitignore                    # Configuración de Git
- training_history.png          # Curvas de entrenamiento [GENERADO]
- confusion_matrix.png          # Matriz de confusión [GENERADO]
- sample_predictions.png        # Predicciones de ejemplo [GENERADO]
- Figure_1.png                  # Figura adicional 1 [GENERADO]
- Figure_2.png                  # Figura adicional 2 [GENERADO]
- Figure_3.png                  # Figura adicional 3 [GENERADO]
- fashion_mnist_model.h5        # Modelo entrenado [GENERADO] (1.3MB)
-`
+├── fashion_mnist_classifier.py   # Implementación principal
+├── requirements.txt              # Dependencias
+├── informe_tecnico.md            # Reporte técnico detallado
+├── README.md                     # Documentación del proyecto
+├── .gitignore                    # Configuración de Git
+│
+├── training_history.png          # Curvas de entrenamiento [GENERADO]
+├── confusion_matrix.png          # Matriz de confusión [GENERADO]
+├── sample_predictions.png        # Predicciones de ejemplo [GENERADO]
+│
+├── Figure_1.png                  # Figura adicional 1 [GENERADO]
+├── Figure_2.png                  # Figura adicional 2 [GENERADO]
+├── Figure_3.png                  # Figura adicional 3 [GENERADO]
+│
+└── fashion_mnist_model.h5        # Modelo entrenado [GENERADO] (1.3MB)
 
 ##  Funcionalidades Implementadas
 
@@ -113,24 +113,24 @@ Evaluación I Machine Learning TIEL26-101-8V-A/
 
 ##  Métricas de Evaluación Detalladas
 
-### Reporte de Clasificación Completo
-`
-              precision    recall  f1-score   support
-T-shirt/top       0.86      0.84      0.85      1000
-Trouser           0.99      0.97      0.98      1000
-Pullover          0.80      0.81      0.80      1000
-Dress             0.89      0.90      0.90      1000
-Coat              0.80      0.81      0.81      1000
-Sandal            0.97      0.97      0.97      1000
-Shirt             0.72      0.72      0.72      1000
-Sneaker           0.95      0.96      0.96      1000
-Bag               0.97      0.98      0.97      1000
-Ankle boot        0.96      0.96      0.96      1000
+📊 Reporte de Clasificación Completo
+Clase	Precisión	Recall	F1-Score	Soporte
+T-shirt/top	0.86	0.84	0.85	1000
+Trouser	0.99	0.97	0.98	1000
+Pullover	0.80	0.81	0.80	1000
+Dress	0.89	0.90	0.90	1000
+Coat	0.80	0.81	0.81	1000
+Sandal	0.97	0.97	0.97	1000
+Shirt	0.72	0.72	0.72	1000
+Sneaker	0.95	0.96	0.96	1000
+Bag	0.97	0.98	0.97	1000
+Ankle boot	0.96	0.96	0.96	1000
 
-accuracy                           0.89     10000
-macro avg         0.89      0.89      0.89     10000
-weighted avg      0.89      0.89      0.89     10000
-`
+Resultados globales:
+
+Accuracy: 0.89 (10,000 muestras)
+Macro promedio: Precisión 0.89 | Recall 0.89 | F1-score 0.89
+Ponderado promedio: Precisión 0.89 | Recall 0.89 | F1-score 0.89
 
 ### Análisis de Errores por Clase
 - **Trouser**: Mejor clase identificada (98% F1-score) - forma distintiva
@@ -202,7 +202,7 @@ weighted avg      0.89      0.89      0.89     10000
 
 - **Curso**: Machine Learning (TIEL26)
 - **Sección**: TIEL26-101-8V-A
-- **Instructor**: Felipe Oyarzún
+- **Docente**: Felipe Oyarzún
 - **Institución**: INACAP
 - **Evaluación**: 15% de la nota final
 - **Fecha de entrega**: 04 de Octubre, 2025
@@ -216,4 +216,4 @@ weighted avg      0.89      0.89      0.89     10000
 
 *Este proyecto demuestra la aplicación práctica de conceptos fundamentales de Machine Learning en un problema real de clasificación de imágenes.*
 
-** PROYECTO COMPLETADO EXITOSAMENTE**
+**PROYECTO COMPLETADO EXITOSAMENTE**
